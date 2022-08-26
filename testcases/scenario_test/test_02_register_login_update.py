@@ -15,13 +15,13 @@ def step_2(username):
 
 
 @allure.step("步骤3 ==>> 查看新注册用户ID")
-def step_3(id):
-    logger.info("步骤3 ==>> 查看新注册用户ID：{}".format(id))
+def step_3(uid):
+    logger.info("步骤3 ==>> 查看新注册用户ID：{}".format(uid))
 
 
 @allure.step("步骤4 ==>> 根据ID修改用户信息")
-def step_4(id):
-    logger.info("步骤4 ==>> 修改用户ID：{}".format(id))
+def step_4(uid):
+    logger.info("步骤4 ==>> 修改用户ID：{}".format(uid))
 
 
 @allure.severity(allure.severity_level.BLOCKER)

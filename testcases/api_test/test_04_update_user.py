@@ -6,8 +6,8 @@ from common.logger import logger
 
 
 @allure.step("步骤1 ==>> 根据ID修改用户信息")
-def step_1(id):
-    logger.info("步骤1 ==>> 修改用户ID：{}".format(id))
+def step_1(uid):
+    logger.info("步骤1 ==>> 修改用户ID：{}".format(uid))
 
 
 @allure.step("前置登录步骤 ==>> 管理员登录")

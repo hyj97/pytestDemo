@@ -16,7 +16,7 @@ DB_CONF = {
 }
 
 
-class MysqlDb():
+class MysqlDb:
 
     def __init__(self, db_conf=DB_CONF):
         # 通过字典拆包传递配置信息，建立数据库连接

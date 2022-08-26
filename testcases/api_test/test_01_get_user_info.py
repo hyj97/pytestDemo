@@ -18,7 +18,7 @@ def step_2(username):
 @allure.severity(allure.severity_level.TRIVIAL)
 @allure.epic("针对单个接口的测试")
 @allure.feature("获取用户信息模块")
-class TestGetUserInfo():
+class TestGetUserInfo:
     """获取用户信息模块"""
 
     @allure.story("用例--获取全部用户信息")

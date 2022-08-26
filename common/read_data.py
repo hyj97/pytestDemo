@@ -13,7 +13,7 @@ class MyConfigParser(ConfigParser):
         return optionstr
 
 
-class ReadFileData():
+class ReadFileData:
     def __init__(self):
         pass
 

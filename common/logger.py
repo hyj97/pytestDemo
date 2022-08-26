@@ -9,7 +9,7 @@ if not os.path.exists(LOG_PATH):
     os.mkdir(LOG_PATH)
 
 
-class Logger():
+class Logger:
 
     def __init__(self):
         self.logname = os.path.join(LOG_PATH, "{}.log".format(time.strftime("%Y%m%d")))

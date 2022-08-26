@@ -22,7 +22,7 @@ def step_3(username):
 @allure.severity(allure.severity_level.CRITICAL)
 @allure.epic("针对业务场景的测试")
 @allure.feature("场景：用户注册-用户登录-查看用户")
-class TestRegLogList():
+class TestRegLogList:
 
     @allure.story("用例--注册/登录/查看--预期成功")
     @allure.description("该用例是针对 注册-登录-查看 场景的测试")
